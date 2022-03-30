@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/845f0d62a9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Restaurant Logo">
+      </div>
+      <h1>Food and Drink Restaurant</h1>
+      <!-- Trigger -->
+      <button type="button" class="navbar-toggler nav-button" data-bs-toggle="collapse" data-bs-target="#navbarItems">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Target -->
+      <div class="navbar-collapse collapse justify-content-end" id="navbarItems">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Food Items and Meals
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Snacks
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Drinks</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Desserts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Special Items</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="top">
+    <div class="row">
+      <div class="col-md-8">
+        <img src="images/main-image.jpg" alt="Main-Image" class="top-image">
+      </div>
+      <div class="col-md-4">
+        <div class="top-spl-heading">
+          <p class="top-heading">Todays Special!</p>
+        </div>
+        <div class="top-spl">
+          <a href="#" class="top-spl-card">
+            <img src="images/Homemade-Grilled-Cheese-Sandwich-with-Tomatoes.png" alt="logo" class="top-spl-img">
+          </a>
+          <a href="#" class="top-spl-text">
+            <p>Grilled Cheese Sandwich</p>
+            <p>₹49</p>
+          </a>
+        </div>
+        <div class="top-spl">
+          <a href="#" class="top-spl-card">
+            <img src="images/burger.jpg" alt="logo" class="top-spl-img">
+          </a>
+          <a href="#" class="top-spl-text">
+            <p>Burger</p>
+            <p>₹49</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="menu">
+    <div class="row justify-content-center mt-4 mb-4">
+      <div class="col-md-4 menu-item mb-3">
+        <div class="card menu-card">
+          <img src="images/thalappakatti-fish-meals-1.jpg" alt="Meals" class="card-img-top menu-img">
+          <div class="card-body">
+            <a href="#" class="card-text"><p>Food Items and Meals</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 menu-item mb-3">
+        <div class="card menu-card">
+          <img src="images/Europe_Snacks_food_manufacturer_private_label_Home_page-2.jpg" alt="Snacks" class="card-img-top menu-img">
+          <div class="card-body">
+            <a href="#" class="card-text"><p>Snacks</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 menu-item mb-3">
+        <div class="card menu-card">
+          <img src="images/Sports-drinks-and-juice-hit-by-anti-sugar-campaign.jpg" alt="Drinks" class="card-img-top menu-img">
+          <div class="card-body">
+            <a href="#" class="card-text"><p>Drinks</p></a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-4 menu-item mb-3">
+          <div class="card menu-card">
+            <img src="images/original.jpg" alt="Desserts" class="card-img-top menu-img">
+            <div class="card-body">
+              <a href="#" class="card-text"><p>Desserts</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 menu-item mb-3">
+          <div class="card menu-card">
+            <img src="images/gettyimages-1212329362-612x612.jpg" alt="Special Items" class="card-img-top menu-img">
+            <div class="card-body">
+              <a href="#" class="card-text"><p>Special Items</p></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="about">
+    <div class="row mt-4">
+      <div class="col-md-6 d-flex justify-content-center">
+        <img src="images/pizza.jpg" alt="About-img" class="about-img">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <p class="about-text">
+          Hungry?
+        </p>
+        <p class="about-text">Order Your Favourite Food Online with Free Home Delivery</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer-contact">Contact: +91-0123456789</p>
+    <div class="icons-wrapper">
+      <ul class=icons>
+        <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+body{
+    background-image: linear-gradient(120deg, rgb(131, 46, 131), rgb(224, 224, 95));
+    margin: 2rem;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.nav-button{
+    background-color: white;
+    opacity: 80%;
+}
+
+.navbar > div.container-fluid{
+    color: white;
+    background-image: linear-gradient(90deg,rgb(27, 23, 23),rgb(14, 12, 12));
+    left: 0px;
+    border-radius: 1rem;
+    opacity: 85%;
+    z-index: 99;
+}
+
+.container-fluid > div.logo{
+    width: 4em;
+}
+
+.logo img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: wheat;
+}
+
+.top{
+    margin-block-start: 3em;
+    /* background: #e9ecef; */
+}
+
+.top-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.top-spl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 44%;
+    margin-bottom: 1%;
+    background: white;
+    opacity: 76%;
+    border-radius: 1em;
+    transition: all 1s ease;
+}
+
+.top-spl-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 10%;
+    margin-bottom: 1%;
+    background: white;
+    opacity: 76%;
+    border-radius: 1em;
+    transition: all 1s ease;
+}
+.top-heading{
+    font-size: 2em;
+}
+
+.top-spl-card{
+    width: 50%;
+    height: 60%;
+}
+
+.top-spl-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2em;
+}
+
+.top-spl-img:hover{
+    transform: scale(1.01);
+}
+
+.top-spl-text, .card-text{
+    text-decoration: none;
+    color: black;
+}
+
+.top-spl-text:hover{
+    color: grey;
+}
+
+.top-spl-text>p{
+    font-size: 1.75em;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-card{
+    height: 100%;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.menu-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    transition: all 1s ease;
+}
+
+.card-text>p{
+    text-align: center;
+    font-size: 2em;
+}
+
+.card-text:hover{
+    color: grey;
+}
+
+.menu-img:hover{
+    transform: scale(1.01);
+}
+
+.about{
+    background: white;
+    opacity: 76%;
+    border-radius: 1em;
+}
+
+.about-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.about-text{
+    font-size: 3em;
+    text-align: center;
+}
+
+footer{
+    background-image: linear-gradient(90deg,rgb(27, 23, 23),rgb(14, 12, 12));
+    border-radius: 1rem;
+    opacity: 85%;
+    margin-top: 3em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-contact{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.icons {
+    top:50%;
+    left:50%;
+    /* transform: translate(-50%, -50%); */
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  .icons li {
+    list-style: none;
+  }
+  
+  .icons li a {
+    position: relative;
+    width: 2.8em;
+    height: 2.8em;
+    display:block;
+    text-align:center;
+    margin: 0 0.5em;
+    border-radius: 50%;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 0.3em 0.1em rgb(0 0 0 / 30%);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+  }
+  
+  .icons li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+  }
+  
+  .icons li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(2.5em - 0.6em);
+    font-size: 1.4em;
+    color: #262626;
+    transition: .5s;
+  }
+  
+  .icons li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+  }
+  
+  .icons li:nth-child(2) a:hover .fab {
+    color: #00aced;
+  }
+  
+  .icons li:nth-child(3) a:hover .fab {
+    color: #dd4b39;
+  }
+  
+  .icons li:nth-child(4) a:hover .fab {
+    color: #007bb6;
+  }
+  
+  .icons li:nth-child(5) a:hover .fab {
+    color: #e4405f;
+  }
+
+  @media screen and (min-width: 768px){
+      footer{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+      }
+  }
